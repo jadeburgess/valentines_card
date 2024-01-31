@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test 1</title>
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #inside, #close-button {
+            display: none;
+        }
+
+        #outside-pic {
+        width: 5rem; 
+        height: 5rem; 
+        
+    }
+
+    #inside-pic {
+        width: 5rem; 
+        height: 5rem; 
+    }
+    </style>
+</head>
+<body>
+    <div id="outside">
+        <p id="outside-title">OUTSIDE</p>
+        <img id="outside-pic" src="images/circle.jpg">
+        <p id="click-to-open">
+            <button id="open-button" onclick="open_card()">click to open</button>
+        </p>
+    </div>
+
+    <div id="inside">
+        <p id="inside-title">INSIDE</p>
+            <img id="inside-pic" src="images/star.png">
+        <p id="message">HELLO WORLD!</p>
+        <p id="click-to-close">
+                <button id="close-button" onclick="close_card()">click to close</button>
+        </p>
+    </div>
+</body>
+</html>

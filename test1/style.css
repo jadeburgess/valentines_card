@@ -1,0 +1,54 @@
+
+/* outside card style */
+#outside {
+    background-color: aqua;
+    text-align: center;
+}
+
+
+#outside-title {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#outside-pic {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+/* inside card style */
+#inside {
+    background-color: rgb(24, 116, 29);
+   
+}
+
+#inside-title {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#inside-pic {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+#message {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* buttons */
+#open-button {
+    background-color: red;
+    margin-top: 10px;
+    margin: auto;
+  
+}
+
+#close-button {
+    background-color: red;
+    margin-top: 10px;
+    margin: auto;
+}
